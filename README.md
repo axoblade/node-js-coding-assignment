@@ -1277,4 +1277,4 @@ URL: http://localhost:4000/api/v1/ride/rides/ongoing
 
 [Back to top](#safe-boda-nodejs-take-home-assignment)
 
-> View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU){:target="\_blank"}
+> View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU)

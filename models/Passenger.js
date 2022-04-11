@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const DriverSchema = new mongoose.Schema({
+const PassengerSchema = new mongoose.Schema({
     name: {
         type: String,
         trim: true,
@@ -12,10 +12,6 @@ const DriverSchema = new mongoose.Schema({
         maxlength: [15, 'Phone number should not exceed 15 characters'],
         unique: [true, 'Phone number already exists']
     },
-    suspended: {
-        type: Boolean,
-        default: false
-    },
     available: {
         type: Boolean,
         default: true
@@ -26,4 +22,4 @@ const DriverSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Driver', DriverSchema);
+module.exports = mongoose.model('Passenger', PassengerSchema);

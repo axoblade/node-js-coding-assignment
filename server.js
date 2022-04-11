@@ -15,6 +15,7 @@ connectDB();
 
 //include route files
 const auth = require('./routes/auth');
+const driver = require('./routes/driver');
 
 const app = express();
 
@@ -31,6 +32,7 @@ if (process.env.NODE_ENV == 'development') {
 
 //routes
 app.use('/api/v1/auth', auth);
+app.use('/api/v1/driver', driver);
 
 app.use(errorHandler);
 app.listen();

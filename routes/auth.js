@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { protect } = require('../middleware/auth');
+const { protect, authorize } = require('../middleware/auth');
 //include the controller
 const {
     createUser,
@@ -8,13 +8,12 @@ const {
     getMe,
     updateMe
 } = require('../controllers/auth');
-const advancedFilter = require('../middleware/filter');
 const users = require('../models/User');
 
 const router = express.Router();
 
 router.route('/')
-    .post(protect,createUser);
+    .post(protect,authorize('admin'),createUser);
 
 router.route('/update')
     .put(protect, updateMe);

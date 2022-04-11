@@ -17,8 +17,8 @@ const errorHandler = (err, req, res, next) => {
 
     //duplicate key error
     if (err.code === 11000) {
-        const msg = 'Duplicate recoreds or field value submitted';
-        error = new ErrorResponse(msg, 500);
+        const msg = 'Duplicate records or field value submitted';
+        error = new ErrorResponse(msg, 409);
     }
 
     //validation error
@@ -29,8 +29,7 @@ const errorHandler = (err, req, res, next) => {
 
     res.status(error.statusCode || 500).json({
         success: false,
-        msg: error.message || 'Server Error',
-        //data:{}
+        msg: error.message || 'Server Error'
     });
 };
 

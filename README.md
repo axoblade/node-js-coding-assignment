@@ -1,5 +1,13 @@
 # Safe Boda NodeJs Take Home Assignment
 
+## Setup
+
+- Prequisities
+  - NodeJs
+  - Run npm i
+  - You can change the DB config from config/config.env
+  - npm run dev or npm run start for production
+
 ## Indices
 
 - [Auth](#auth)
@@ -1269,4 +1277,4 @@ URL: http://localhost:4000/api/v1/ride/rides/ongoing
 
 [Back to top](#safe-boda-nodejs-take-home-assignment)
 
-> View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU)
+> View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU){:target="\_blank"}

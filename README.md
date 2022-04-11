@@ -543,7 +543,7 @@ URL: http://localhost:4000/api/v1/driver/62543cea121db7264f6d3efd/suspend
 ```bash
 Method: DELETE
 Type:
-URL: http://localhost:4000/api/v1/driver/62543cea121db7264f6d3efd/suspend
+URL: http://localhost:4000/api/v1/driver/<DRIVER_ID>/suspend
 ```
 
 **_More example Requests/Responses:_**
@@ -1269,4 +1269,4 @@ URL: http://localhost:4000/api/v1/ride/rides/ongoing
 
 [Back to top](#safe-boda-nodejs-take-home-assignment)
 
-> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2022-04-11 20:33:03 by [docgen](https://github.com/thedevsaddam/docgen)
+> View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU)

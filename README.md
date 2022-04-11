@@ -1,5 +1,15 @@
 # Safe Boda NodeJs Take Home Assignment
 
+## Introduction
+
+- Github Link: https://github.com/axoblade/node-js-coding-assignment
+- The Live API BaseURL hosted on Heroku, can also be accessed here: https://safe-boda-nodejs-assignment.herokuapp.com/api/v1
+- The API POSTMAN collection with sample payloads and example requests and responses can be accessed here: https://documenter.getpostman.com/view/13205657/UVyyttEU
+
+- Database used is MongoDB
+- Language used is JavaScript (NodeJs)
+- Framework used is Express for NodeJs
+
 ## Setup
 
 - Prequisities

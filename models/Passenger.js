@@ -16,6 +16,10 @@ const PassengerSchema = new mongoose.Schema({
         type: Boolean,
         default: true
     },
+    suspended: {
+        type: Boolean,
+        default: false
+    },
     createdAt: {
         type: Date,
         default: Date.now

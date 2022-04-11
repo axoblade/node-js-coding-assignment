@@ -1,0 +1,45 @@
+{
+  "name": "nodejs-assignment-api",
+  "version": "1.0.0",
+  "description": "api for the safeboda ug take home challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axoblade/node-js-coding-assignment"
+  },
+  "keywords": [
+    "challenge",
+    "api"
+  ],
+  "author": "axoblade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axoblade/node-js-coding-assignment/issues"
+  },
+  "homepage": "https://github.com/axoblade/node-js-coding-assignment#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moesif-nodejs": "^3.1.14",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0",
+    "nodemailer": "^6.7.2",
+    "slugify": "^1.5.3",
+    "ugdistrictserve": "^1.1.2",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1278,3 +1278,4 @@ URL: http://localhost:4000/api/v1/ride/rides/ongoing
 [Back to top](#safe-boda-nodejs-take-home-assignment)
 
 > View the full POSTMAN collection from [here](https://documenter.getpostman.com/view/13205657/UVyyttEU)
+> Live API can be found [https://safe-boda-nodejs-assignment.herokuapp.com/api/v1](https://safe-boda-nodejs-assignment.herokuapp.com/api/v1)

@@ -9,6 +9,8 @@
 - Database used is MongoDB
 - Language used is JavaScript (NodeJs)
 - Framework used is Express for NodeJs
+- Admin Username : batte@mail.com
+- Admin Password : password
 
 ## Setup
 
